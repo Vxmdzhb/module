@@ -1,0 +1,49 @@
+{
+    "name": "astrx/module",
+    "description": "The module contract: manifests, the registry and extension points.",
+    "license": "LicenseRef-DoWhatever",
+    "type": "library",
+    "keywords": [
+        "astrx",
+        "no-javascript",
+        "server-rendered"
+    ],
+    "homepage": "https://github.com/Vxmdzhb/module",
+    "require": {
+        "php": ">=8.4",
+        "astrx/config": "self.version",
+        "astrx/i18n": "self.version",
+        "astrx/injector": "self.version",
+        "astrx/result": "self.version",
+        "astrx/support": "self.version"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "AstrX\\Module\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/result"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/support"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/config"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/injector"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/i18n"
+        }
+    ]
+}
